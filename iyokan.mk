@@ -26,6 +26,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/semc/iyokan/recovery/bootrec-device:recovery/bootrec-device
 
+# Bluetooth config
+PRODUCT_COPY_FILES += \
+    device/semc/iyokan/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
+
 # Device specific configs
 PRODUCT_COPY_FILES += \
     device/semc/iyokan/config/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
