@@ -1,11 +1,5 @@
 #!/sbin/busybox sh
 
-export BOOTREC_LED_RED="/sys/class/leds/red"
-export BOOTREC_LED_GREEN="/sys/class/leds/green"
-export BOOTREC_LED_BLUE="/sys/class/leds/blue"
-export BOOTREC_LED_BUTTONS="/sys/class/leds/button-backlight"
-export BOOTREC_LED_LCD="/sys/class/leds/lcd-backlight"
-
 export BOOTREC_LED_RED_CURRENT="2000"
 export BOOTREC_LED_GREEN_CURRENT="2000"
 export BOOTREC_LED_BLUE_CURRENT="2000"
