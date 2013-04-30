@@ -20,10 +20,6 @@ PRODUCT_COPY_FILES += \
     device/semc/iyokan/prebuilt/hw_config.sh:system/etc/hw_config.sh \
     device/semc/msm7x30-common/prebuilt/logo_H.rle:root/initlogo.rle
 
-# Device specific part for two-stage boot
-PRODUCT_COPY_FILES += \
-    device/semc/iyokan/recovery/bootrec-device:recovery/bootrec-device
-
 # Device specific configs
 PRODUCT_COPY_FILES += \
     device/semc/iyokan/config/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
@@ -35,7 +31,6 @@ PRODUCT_COPY_FILES += \
     device/semc/iyokan/config/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
     device/semc/iyokan/config/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
     device/semc/iyokan/config/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
-    device/semc/iyokan/config/als_curve.conf:system/etc/als_curve.conf \
     device/semc/iyokan/config/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     device/semc/iyokan/config/sensors.conf:system/etc/sensors.conf \
     device/semc/iyokan/config/tiwlan.ini:system/etc/tiwlan.ini
