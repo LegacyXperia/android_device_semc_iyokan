@@ -19,4 +19,4 @@ TARGET_QCOM_HDMI_OUT := false
 TARGET_OTA_ASSERT_DEVICE := MK16i,MK16a,iyokan
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/iyokan/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/iyokan/bluedroid
