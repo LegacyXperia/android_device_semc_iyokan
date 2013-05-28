@@ -49,9 +49,12 @@ echo $val_filter > $dev/filter  # RFilter. Valid range is 0 - 3.
 
 # LMU AS3676 Configuration
 dev=/sys/devices/i2c-0/0-0040/leds
-echo 4000 > $dev/button-backlight/max_current
-echo 38000 > $dev/keyboard-backlight/max_current
-echo 10000 >$dev/tally-light/max_current
+echo 4000 > $dev/button-backlight/max_current_uA
+echo 38000 > $dev/keyboard-backlight-rgb1/max_current_uA
+echo 38000 > $dev/keyboard-backlight-rgb2/max_current_uA
+echo 2000 > $dev/red/max_current_uA
+echo 2000 > $dev/green/max_current_uA
+echo 3000 > $dev/blue/max_current_uA
 
 # touch auto fwupdate
 cyttsp_fwloader -dev /sys/devices/platform/spi_qsd.0/spi0.0 -fw /system/etc/firmware/touch_iyokan_ttsp.hex
