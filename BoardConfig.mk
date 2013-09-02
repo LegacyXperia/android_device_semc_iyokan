@@ -32,3 +32,6 @@ TARGET_OTA_ASSERT_DEVICE := MK16i,MK16a,iyokan
 
 # HDMI
 TARGET_QCOM_HDMI_OUT := false
+
+# CM Hardware tunables
+BOARD_HARDWARE_CLASS := device/semc/iyokan/cmhw
