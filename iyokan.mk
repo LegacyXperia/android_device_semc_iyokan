@@ -37,14 +37,9 @@ PRODUCT_COPY_FILES += \
 # Device specific configs
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/usr/idc/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
-    $(LOCAL_PATH)/rootdir/system/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
-    $(LOCAL_PATH)/rootdir/system/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
-    $(LOCAL_PATH)/rootdir/system/usr/idc/pm8058-keypad.idc:system/usr/idc/pm8058-keypad.idc \
-    $(LOCAL_PATH)/rootdir/system/usr/keychars/pm8058-keypad.kcm:system/usr/keychars/pm8058-keypad.kcm \
-    $(LOCAL_PATH)/rootdir/system/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
-    $(LOCAL_PATH)/rootdir/system/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
-    $(LOCAL_PATH)/rootdir/system/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
-    $(LOCAL_PATH)/rootdir/system/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
+    $(LOCAL_PATH)/rootdir/system/usr/idc/pm8xxx-keypad.idc:system/usr/idc/pm8xxx-keypad.idc \
+    $(LOCAL_PATH)/rootdir/system/usr/keychars/pm8xxx-keypad.kcm:system/usr/keychars/pm8xxx-keypad.kcm \
+    $(LOCAL_PATH)/rootdir/system/usr/keylayout/pm8xxx-keypad.kl:system/usr/keylayout/pm8xxx-keypad.kl \
     $(LOCAL_PATH)/rootdir/system/etc/sensors.conf:system/etc/sensors.conf \
     $(LOCAL_PATH)/rootdir/system/etc/tiwlan.ini:system/etc/tiwlan.ini
 
