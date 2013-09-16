@@ -1,5 +1,5 @@
-keyboard.layout=pm8058-keypad
-keyboard.characterMap=pm8058-keypad
+keyboard.layout=pm8xxx-keypad
+keyboard.characterMap=pm8xxx-keypad
 keyboard.orientationAware=1
 keyboard.builtIn=1
 
