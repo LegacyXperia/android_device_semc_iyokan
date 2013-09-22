@@ -49,6 +49,3 @@ echo $val_filter > $dev/filter  # RFilter. Valid range is 0 - 3.
 
 # touch auto fwupdate
 cyttsp_fwloader -dev /sys/devices/platform/spi_qsd.0/spi0.0 -fw /system/etc/firmware/touch_iyokan_ttsp.hex
-
-# TI BQ275xx firmware loader
-bq275xx_fwloader
