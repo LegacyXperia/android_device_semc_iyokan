@@ -19,54 +19,64 @@ lib/libnv.so
 lib/liboem_rapi.so
 lib/liboncrpc.so
 lib/libpbmlib.so
+lib/libqdp.so
 lib/libqmi.so
 lib/libqueue.so
-lib/libuim.so
-lib/libqdp.so
 lib/libril.so
 lib/libril-qc-1.so
+lib/libuim.so
 lib/libwms.so
 lib/libwmsts.so
 
 # Camera proprietaries
 lib/hw/vendor-camera.semc.so
-lib/liboemcamera.so
-lib/libmmjpeg.so
-lib/libmmipl.so
-lib/libcamera_clientsemc.so
 lib/libcald_client.so
 lib/libcald_debugger.so
 lib/libcald_hal.so
 lib/libcald_imageutil.so
 lib/libcald_pal.so
 lib/libcald_server.so
-lib/libface.so
-lib/libgemini.so
+lib/libcamera_clientsemc.so
 lib/libcameraextensionclient.so
 lib/libcameraextensionjni.so
 lib/libcameraextensionservice.so
 lib/libcameralight.so
-usr/semc/camera/LGI08BN1.dat
-usr/semc/camera/SOD08BN1.dat
-usr/semc/camera/SOD08BN0.dat
-usr/semc/camera/SOD08BN0_IMX073.dat
-usr/semc/camera/LGI08BN0_IMX105.dat
-usr/semc/camera/LM3560_02_flash.dat
-usr/semc/camera/LGI08BN0_DW9714.dat
-usr/semc/camera/SOD08BN1_DW9714.dat
-usr/semc/camera/APT00YP0_MT9V144.dat
+lib/libface.so
+lib/libgemini.so
+lib/libmmipl.so
+lib/libmmjpeg.so
+lib/liboemcamera.so
 usr/semc/camera/APT00YP0.dat
-usr/semc/camera/SOD08BN1_IMX105.dat
-usr/semc/camera/SOD08BN0_DW9714.dat
-usr/semc/camera/LGI08BN1_DW9714.dat
+usr/semc/camera/APT00YP0_MT9V144.dat
 usr/semc/camera/LGI08BN0.dat
+usr/semc/camera/LGI08BN0_DW9714.dat
+usr/semc/camera/LGI08BN0_IMX105.dat
+usr/semc/camera/LGI08BN1.dat
+usr/semc/camera/LGI08BN1_DW9714.dat
 usr/semc/camera/LGI08BN1_IMX105.dat
+usr/semc/camera/LM3560_02_flash.dat
+usr/semc/camera/SOD08BN0.dat
+usr/semc/camera/SOD08BN0_DW9714.dat
+usr/semc/camera/SOD08BN0_IMX073.dat
+usr/semc/camera/SOD08BN1.dat
+usr/semc/camera/SOD08BN1_DW9714.dat
+usr/semc/camera/SOD08BN1_IMX105.dat
 
-# Other libraries and proprietary binaries
-bin/akmd8975
-bin/chargemon
+# Calibration
+bin/nv_param_loader
+bin/nvcustomizer
+bin/nvimport
+
+# Audio
 lib/libaudioalsa.so
+
+# Compass
+bin/akmd8975
+
+# Offline charging
+bin/chargemon
 lib/libmiscta.so
 
 # Touchscreen firmware
+bin/cyttsp_fwloader
 etc/firmware/touch_iyokan_ttsp.hex
