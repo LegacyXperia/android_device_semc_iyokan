@@ -48,4 +48,4 @@ echo $val_threshold > $dev/threshold # sensor threshold. Valid range is 0 - 15 (
 echo $val_filter > $dev/filter  # RFilter. Valid range is 0 - 3.
 
 # touch auto fwupdate
-cyttsp_fwloader -dev /sys/devices/platform/spi_qsd.0/spi0.0 -fw /system/etc/firmware/touch_iyokan_ttsp.hex
+cyttsp_fwloader -dev /sys/devices/platform/spi_qsd.0/spi_master/spi0/spi0.0 -fw /system/etc/firmware/touch_iyokan_ttsp.hex
