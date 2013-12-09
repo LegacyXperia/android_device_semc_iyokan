@@ -490,7 +490,7 @@ key PLUS {
     shift+alt:                          '+'
 }
 
-key SYM {
+key PICTSYMBOLS {
     label:                              '\uef01'
     number:                             '\uef01'
     base:                               '\uef01'
