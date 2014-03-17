@@ -42,6 +42,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/etc/sensors.conf:system/etc/sensors.conf \
     $(LOCAL_PATH)/rootdir/system/etc/wifi/TQS_S_2.6.ini:system/etc/wifi/TQS_S_2.6.ini
 
+# Keyboard
+PRODUCT_PACKAGES += \
+    MogamiKeypad
+
 # Device properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240 \
