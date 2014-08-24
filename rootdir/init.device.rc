@@ -10,23 +10,23 @@ on boot
     chmod 660 /sys/class/leds/button-backlight-rgb1/brightness
 
     # LM35xx/cameralight
-    chown system system /sys/devices/i2c-0/0-0053/torch_enable
-    chmod 666 /sys/devices/i2c-0/0-0053/torch_enable
-    chown system system /sys/devices/i2c-0/0-0053/torch_current
-    chmod 666 /sys/devices/i2c-0/0-0053/torch_current
-    chown system system /sys/devices/i2c-0/0-0053/cm_torch
-    chmod 666 /sys/devices/i2c-0/0-0053/cm_torch
-    chown system system /sys/devices/i2c-0/0-0053/privacy_enable
-    chmod 666 /sys/devices/i2c-0/0-0053/privacy_enable
-    chown system system /sys/devices/i2c-0/0-0053/privacy_current
-    chmod 666 /sys/devices/i2c-0/0-0053/privacy_current
-    chown system system /sys/devices/i2c-0/0-0053/flash_enable
-    chmod 666 /sys/devices/i2c-0/0-0053/flash_enable
-    chown system system /sys/devices/i2c-0/0-0053/flash_duration
-    chmod 666 /sys/devices/i2c-0/0-0053/flash_duration
-    chown system system /sys/devices/i2c-0/0-0053/flash_synchronization
-    chmod 666 /sys/devices/i2c-0/0-0053/flash_synchronization
-    chown system system /sys/devices/i2c-0/0-0053/flash_current
-    chmod 666 /sys/devices/i2c-0/0-0053/flash_current
-    chown system system /sys/devices/i2c-0/0-0053/status
-    chmod 666 /sys/devices/i2c-0/0-0053/status
+    chown system camera /sys/devices/i2c-0/0-0053/torch_enable
+    chmod 660 /sys/devices/i2c-0/0-0053/torch_enable
+    chown system camera /sys/devices/i2c-0/0-0053/torch_current
+    chmod 660 /sys/devices/i2c-0/0-0053/torch_current
+    chown system camera /sys/devices/i2c-0/0-0053/cm_torch
+    chmod 660 /sys/devices/i2c-0/0-0053/cm_torch
+    chown system camera /sys/devices/i2c-0/0-0053/privacy_enable
+    chmod 660 /sys/devices/i2c-0/0-0053/privacy_enable
+    chown system camera /sys/devices/i2c-0/0-0053/privacy_current
+    chmod 660 /sys/devices/i2c-0/0-0053/privacy_current
+    chown system camera /sys/devices/i2c-0/0-0053/flash_enable
+    chmod 660 /sys/devices/i2c-0/0-0053/flash_enable
+    chown system camera /sys/devices/i2c-0/0-0053/flash_duration
+    chmod 660 /sys/devices/i2c-0/0-0053/flash_duration
+    chown system camera /sys/devices/i2c-0/0-0053/flash_synchronization
+    chmod 660 /sys/devices/i2c-0/0-0053/flash_synchronization
+    chown system camera /sys/devices/i2c-0/0-0053/flash_current
+    chmod 660 /sys/devices/i2c-0/0-0053/flash_current
+    chown system camera /sys/devices/i2c-0/0-0053/status
+    chmod 660 /sys/devices/i2c-0/0-0053/status
