@@ -73,3 +73,7 @@ bin/akmd8975
 # Offline charging
 bin/chargemon
 lib/libmiscta.so
+
+# Touchscreen firmware
+bin/cyttsp_fwloader
+etc/firmware/touch_iyokan_ttsp.hex
