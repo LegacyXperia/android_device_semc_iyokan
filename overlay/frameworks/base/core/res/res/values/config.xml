@@ -31,8 +31,8 @@
          closed.  The default is 0. -->
     <integer name="config_lidKeyboardAccessibility">1</integer>
 
-    <integer name="config_keyboardBrightnessSettingDefault">255</integer>
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+    <!--<integer name="config_keyboardBrightnessSettingDefault">255</integer>
+    <bool name="config_deviceHasVariableButtonBrightness">true</bool>-->
 
     <!-- Hardware 'face' keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
