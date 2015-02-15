@@ -16,7 +16,6 @@
 $(call inherit-product, vendor/semc/iyokan/iyokan-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/semc/iyokan/overlay
-DEVICE_PACKAGE_OVERLAYS += device/semc/mogami-common/overlay-keyboard
 
 $(call inherit-product, device/semc/mogami-common/mogami.mk)
 
