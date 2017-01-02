@@ -15,7 +15,7 @@
 # Inherit device configuration
 $(call inherit-product, device/semc/iyokan/full_iyokan.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_mini_phone.mk)
 
 # Set build fingerprint / ID / Product Name ect.
@@ -26,7 +26,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="MK16i-user 4.0.4 4.1.B.0.587 tL1_3w test-keys"
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := cm_iyokan
+PRODUCT_NAME := lineage_iyokan
 PRODUCT_GMS_CLIENTID_BASE := android-sonyericsson
 
 # Custom tag for unofficial builds
